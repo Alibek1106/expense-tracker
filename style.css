@@ -19,7 +19,7 @@ input[type="text"], input[type="number"] {
     margin-bottom: 10px;
 }
 
-input[type="submit"] {
+button {
     background-color: #8be9fd;
     color: #282a36;
     border: none;
@@ -29,30 +29,8 @@ input[type="submit"] {
     cursor: pointer;
 }
 
-input[type="submit"]:hover {
+button:hover {
     background-color: #6aa0c1;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-}
-
-table th, table td {
-    padding: 12px;
-    border: 1px solid #44475a;
-}
-
-table th {
-    background-color: #6272a4;
-    color: #f8f8f2;
-    text-align: left;
-}
-
-table td {
-    background-color: #44475a;
-    color: #f8f8f2;
 }
 
 .total{
