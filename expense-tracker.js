@@ -7,19 +7,29 @@ document.getElementById("add-expense").addEventListener("click", function() {
   let expenseName = document.getElementById("expense-name").value;
   let expenseAmount = document.getElementById("expense-amount").value;
 
+  if(expenseName === "" || expenseAmount === ""){
+    alert("Both fieldes must be filled")
+    return
+  }
+
   expenses.push({ name: expenseName, amount: expenseAmount });
   totalMoney -= parseInt(expenseAmount);
   updateExpenseList();
   updateTotalMoney();
 
   document.getElementById("expense-name").value = "";
-  document.getElementById("expense-amount").value = ""
+  document.getElementById("expense-amount").value = "";
 });
 
 // Add income
 document.getElementById("add-income").addEventListener("click", function() {
   let incomeName = document.getElementById("income-name").value;
   let incomeAmount = document.getElementById("income-amount").value;
+
+  if(incomeName === "" || incomeAmount === ""){
+    alert("Both fieldes must be filled")
+    return
+  }
 
   income.push({ name: incomeName, amount: incomeAmount });
   totalMoney += parseInt(incomeAmount);
