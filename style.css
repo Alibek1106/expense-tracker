@@ -55,6 +55,19 @@ table td {
     color: #f8f8f2;
 }
 
+.total{
+    margin-bottom: 20px;
+    color: rgb(0, 181, 75)
+}
+
+.expenses{
+    color: rgb(255, 31, 31)
+}
+
+.income{
+    color: rgb(0, 181, 75)
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
 * {
