@@ -1,0 +1,62 @@
+body {
+    background-color: #1d1f21;
+    color: #f8f8f2;
+}
+
+.container {
+    background-color: #282a36;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input[type="text"], input[type="number"] {
+    background-color: #44475a;
+    color: #f8f8f2;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #8be9fd;
+    color: #282a36;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #6aa0c1;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #44475a;
+}
+
+table th {
+    background-color: #6272a4;
+    color: #f8f8f2;
+    text-align: left;
+}
+
+table td {
+    background-color: #44475a;
+    color: #f8f8f2;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+* {
+  font-family: 'Source Code Pro', monospace;
+}
